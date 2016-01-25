@@ -1,0 +1,307 @@
+@media (max-width: 1360px) {
+    #about-us-head .container, #popular-cruises, .short-block, #main-bottom .lefter, #contact-body.container {
+        padding-left:15px;
+    }
+    .in-cruise-wrap {
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
+@media (max-width: 1070px) and (min-width: 960px) {
+    .cruise-inner-page .book-tickets, .cruise-inner-page .cruise-details-button {
+        font-size: 14px;
+        word-break: keep-all;
+        white-space: nowrap;
+        line-height: 35px;
+        padding-right: 10px;
+    }
+    .cruise-inner-page .book-tickets span, .cruise-inner-page .cruise-details-button span {
+        font-size: 16px;
+    }
+    .cruise-left-side .cruise-links {
+        bottom: 50px;
+    }
+    .cruise-inner-page .book-tickets div, .cruise-inner-page .cruise-details-button div {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .cruise-inner-page .cruise-details-button {
+        margin-left: 20px;
+    }
+    .cruise-inner-page .book-tickets span, .cruise-inner-page .cruise-details-button span {
+        display: block;
+        margin-top: 9px;
+    }
+}
+@media (max-width: 1050px) {
+    #footer-one .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #footer-one #fff-break {
+        clear: both;
+        display: block;
+    }
+    #footer-one .fff {
+        width: 50%;
+        border: none;
+    }
+    .select2 {
+        width: 100% !important;
+    }
+    .gtrrr {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 990px) {
+    .big-screen {
+        display: none;
+    }
+    .small-screen {
+        display: block;
+    }
+}
+@media (max-width: 980px) {
+    .history-pic .history-year {
+        right: auto;
+        left: -80px;
+    }
+    .history-row {
+        margin-left: 80px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 975px) {
+    .about-product {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-top: 20px  !important;
+    }
+}
+@media (max-width: 960px) {
+    .cruise-left-side {
+        width: 100%;
+    }
+    .cruise-right-side.cruise-prising {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .cruise-right-side.pictures-cruise {
+        padding: 0;
+        width: 0;
+    }
+    .the-info {
+        margin-top: 0;
+    }
+    .image-slide {
+        left: -15px;
+    }
+    .very-fast-nav1 {
+        float: right;
+    }
+    .very-fast-nav2 {
+        float: left;
+    }
+    .cruise-left-side {
+        padding-right: 0;
+    }
+    #cruise-body {
+        padding-right: 80px;
+    }
+    #cruise-details, #map-schedule {
+        padding-right:0;
+    }
+    .bg-on-right, .bg-on-left {
+        display: block;
+    }
+}
+@media (max-width: 920px) {
+	#top-nav ul li {
+		float: none;
+		border: none;
+	}
+    #top-nav ul.nav-in-main {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+	#watermark {
+        margin-top: -75px;
+    }
+	#watermark img {
+		width: 150px;
+		height: auto;
+	}
+	#new-line {
+		display: inline-block;
+		border: 1px solid;
+		height: 40px;
+		margin-right: 50px;
+	}
+	#main-scroll-down {
+		display: none;
+	}
+	.small-screen {
+		display: block;
+	}
+	.big-screen {
+		display: none;
+	}
+}
+@media (max-width: 725px) {
+    .cruise-inner-page .book-tickets, .cruise-inner-page .cruise-details-button {
+        font-size: 14px;
+        word-break: keep-all;
+        white-space: nowrap;
+        line-height: 35px;
+        padding-right: 10px;
+    }
+    .cruise-inner-page .book-tickets span, .cruise-inner-page .cruise-details-button span {
+        font-size: 16px;
+    }
+    .cruise-left-side .cruise-links {
+        bottom: 20px;
+    }
+    .cruise-inner-page .book-tickets div, .cruise-inner-page .cruise-details-button div {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .cruise-inner-page .cruise-details-button {
+        margin-left: 20px;
+    }
+    .cruise-inner-page .book-tickets span, .cruise-inner-page .cruise-details-button span {
+        display: block;
+        margin-top: 9px;
+    }
+}
+@media (max-width: 700px) {
+    #main-icons .main-icon {
+        width: 50%;
+        border: none;
+    }
+    #main-icons .main-icon.no-border {
+        width: 100%;
+    }
+}
+@media (max-width: 680px) {
+    #contact-body #simple-info .ccc-c {
+        display: block;
+    }
+    #simple-info .ccc {
+        width: 100%;
+    }
+    #simple-info .inline-block {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #simple-info {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 655px) {
+    .breaker {
+        display: block;
+    }
+    .cruise-inner-page .cruise-details-button {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .cruise-inner-page .book-tickets {
+        margin: 0;
+    }
+    #cruise-body {
+        padding-bottom: 140px;
+    }
+    #map-schedule .navigation div {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+    #map-schedule .navigation span {
+        margin-right: 7px;
+        font-size: 15px;
+    }
+    .cruise-fast-nav .post_nav span, .post_nav i {
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .prv .post_nav{
+        margin-left:5px;
+        margin-right:5px;
+	}
+    .post_nav i{
+        width:40px;
+	}
+    .post_nav span{
+        width:120px;
+	}
+    .very-fast-nav {
+        display: inline-block;
+    }
+}
+@media (max-width: 510px) {
+    .functions-links .cruise-details-button {
+        float: right;
+        margin: 0;
+    }
+    .functions-links {
+        padding-bottom: 20px;
+    }
+    #footer-one #fff-break {
+        display: none;
+    }
+    #footer-one .fff.leave-half {
+        width: 50%;
+        border: none;
+    }
+    /*#footer-one .fff.leave-center {
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+    #footer-one .fff.leave-center ul {
+        text-align: left;
+        display: inline-block;
+    }*/
+    #footer-one .fff {
+        width: 100%;
+        border: none;
+    }
+    .footer-conector input {
+        width: 100% !important;
+    }
+    #footer-two .wrapper h4 {
+        text-align: center;
+    }
+    .functions-links .book-tickets, .functions-links .cruise-details-button {
+        font-size: 14px;
+        word-break: keep-all;
+        white-space: nowrap;
+    }
+    .functions-links .book-tickets span, .functions-links .cruise-details-button span {
+        font-size: 16px;
+    }
+    #watermark {
+        margin-top: -50px;
+    }
+    #watermark img {
+        width: 100px;
+    }
+}
+@media (max-width: 460px) {
+    .new-line-c {
+        display: block;
+    }
+    .functions-links  .cruise-details-button {
+        float: left;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 330px) {
+    #main-icons .main-icon {
+        width: 100%;
+        border: none;
+    }
+}

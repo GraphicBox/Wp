@@ -1,0 +1,259 @@
+#nav-top {
+    margin-top: 10px;
+    overflow: auto;
+    line-height: 30px;
+}
+#nav-top h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #c00;
+}
+
+#upload, .upload2 {
+    position: fixed;
+    top: 50px;
+    right: -400px;
+    opacity: 0;
+}
+#upload-hide, .upload-hide2 {
+    position: fixed;
+    top: 50px;
+    right: -400px;
+    width: 400px;
+    height: 50px;
+}
+
+#about-body {
+    margin-top: 10px;
+}
+#about-body #new-fact {
+    margin-bottom: 20px;
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+}
+#about-body #new-fact:hover {
+    color: #c00;
+}
+
+#about-body #new-fact-div {
+    overflow: visible;
+    margin-bottom: 45px;
+    position: relative;
+    display: none;
+    width: 120px;
+}
+#about-body #new-fact-div .pic {
+    border: 1px solid #ccc;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    color: #999;
+    margin-left: 25px;
+}
+#about-body #new-fact-div .pic:hover {
+    color: #c00;
+    border-color: #aaa;
+}
+#about-body #new-fact-div .save, .save-btn {
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-align: center;
+    width: 60px;
+    line-height: 20px;
+    color: #fff;
+    background: #c00;
+    cursor: pointer;
+}
+#about-body #new-fact-div .save:hover, .save-btn:hover {
+    background: #fff;
+    color: #c00;
+    border: 1px solid #ccc;
+}
+#about-body #new-fact-div .cancel, .cancel-btn {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: 16px;
+    border-radius: 3px;
+    text-align: center;
+    width: 60px;
+    line-height: 20px;
+    color: #c00;
+    cursor: pointer;
+}
+#about-body .text {
+    position: relative;
+}
+#about-body #new-fact-div .cancel:hover, .cancel-btn:hover {
+    color: #000;
+}
+.save-btn {
+    right: 5px;
+    bottom: 5px;
+}
+.cancel-btn {
+    left: 5px;
+    bottom: 5px;
+}
+#about-body #new-fact-div .close {
+    position: absolute;
+    top: -46px;
+    left: 407px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+}
+#about-body #new-fact-div .close:hover {
+    color: #c00;
+}
+
+.hidden{display:none;}
+
+input {
+    width: 120px;
+    line-height: 20px;
+   
+}
+
+.red-line {
+    border-bottom: 3px solid #b93030;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    margin-bottom: 12px;
+    width: 68px;
+}
+
+.radio-btn {
+    position: absolute;
+    right: -30px;
+}
+.radio-btn.one {
+    top: 5px;
+}
+.radio-btn.two {
+    top: 35px;
+}
+.radio-btn div {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.delete span {
+    padding: 10px;
+    font-size: 15px;
+    color: #c00;
+}
+.delete span:hover {
+    font-size: 20px;
+}
+
+.radio-btn2 {
+    position: absolute;
+    right: 30px;
+}
+.radio-btn2.one {
+    top: 148px;
+}
+.radio-btn2.two {
+    top: 180px;
+}
+.radio-btn2 div {
+    position: absolute;
+    top: 0;
+    right: -25px;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f1f1f1;
+    opacity: .5;
+    display: none;
+}
+
+#item-list {
+    position: relative;
+    width: 100%;
+}
+#item-list .body {
+    float: left;
+    width: 20%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
+    position: relative;
+    margin-left: -1px;
+    margin-top: 10px;
+    height: 225px;
+}
+#item-list .body:hover {
+    background: #dfdfdf;
+}
+#item-list p {
+    padding: 0;
+    margin: 2px 0;
+    font-size: 15px;
+    position: relative;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+
+.picture-edit {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.picture-edit .click {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    background: #eee;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    display: none;
+}
+.picture-edit .click2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background: #fff;
+    display: none;
+    text-align: center;
+    line-height: 70px;
+    color: #999;
+    font-size: 20px;
+}
+.picture-edit img {
+    width: 70px;
+}
